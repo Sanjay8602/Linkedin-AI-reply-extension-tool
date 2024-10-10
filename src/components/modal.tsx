@@ -9,7 +9,7 @@ interface PromptModalProps {
   textarea: HTMLTextAreaElement
 }
 
-const PromptModal: React.FC<PromptModalProps> = ({
+const Modal: React.FC<PromptModalProps> = ({
   isOpen,
   setIsOpen,
   textarea
@@ -111,4 +111,4 @@ const PromptModal: React.FC<PromptModalProps> = ({
   )
 }
 
-export default PromptModal
+export default Modal
