@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn AI Reply Assistant",
+  "version": "1.0",
+  "action": {
+    "default_popup": "src/components/modal.tsx"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["src/index.tsx"],
+      "css": ["src/index.css"]
+    }
+  ]
+}
