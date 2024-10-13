@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { createRoot } from 'react-dom/client';
 import Modal from './components/modal';
 import './index.css';

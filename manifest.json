@@ -3,7 +3,7 @@
   "name": "LinkedIn AI Reply Assistant",
   "version": "1.0",
   "action": {
-    "default_popup": "src/components/modal.tsx"
+    "default_popup": "public/index.html"
   },
   "permissions": ["activeTab", "scripting"],
   "content_scripts": [
