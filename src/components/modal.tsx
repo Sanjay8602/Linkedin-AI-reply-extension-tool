@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { FaArrowDown } from "react-icons/fa6"
 import { HiArrowPathRoundedSquare } from "react-icons/hi2"
 import { LuSendHorizonal } from "react-icons/lu"
+import './index.css';
 
 interface PromptModalProps {
   isOpen: boolean
