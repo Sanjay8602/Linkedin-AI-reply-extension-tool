@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "LinkedIn AI Reply Assistant",
+  "name": "LinkedIn AI Reply",
   "version": "1.0",
   "description": "An AI assistant for generating replies on LinkedIn.",
   "action": {
